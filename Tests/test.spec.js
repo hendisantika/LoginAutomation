@@ -23,9 +23,9 @@ test.describe('Check elements visibility', () => {
 
     test('Verify "Submit" button visibility', async ({page}) => {
         const loginPage = new LoginPage(page);
-        const sumbitButtonIsVisible = await loginPage.isSubmitButtonVisible();
+        const submitButtonIsVisible = await loginPage.isSubmitButtonVisible();
 
-        expect(sumbitButtonIsVisible).toBe(true);
+        expect(submitButtonIsVisible).toBe(true);
     })
 })
 
@@ -72,7 +72,7 @@ test.describe('Test "Log in" functionality', () => {
         expect(actualInvalidPasswordErrorMessageText).toBe(expectedInvalidPasswordErrorMessageText);
     })
 
-    test('Test log in functionality by sumbitting empty log in form', async ({page}) => {
+    test('Test log in functionality by submitting empty log in form', async ({page}) => {
         const loginPage = new LoginPage(page);
         await loginPage.clickSubmitLoginButton();
 
