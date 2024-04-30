@@ -1,5 +1,11 @@
 # LoginAutomation
 
+### Things todo list:
+
+1. Clone this repository: `git clone https://github.com/hendisantika/LoginAutomation.git`
+2. Navigate to the folder: `cd LoginAutomation`
+3. Run the test: `npx playwright test`
+
 ### Test cases
 
 The demo page — [practicetestautomation](https://practicetestautomation.com/practice-test-login/)
