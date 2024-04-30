@@ -1,5 +1,5 @@
 import {expect, test} from '@playwright/test';
-import {LoginPage} from '../Pages/login-page';
+import {LoginPage} from "../Pages/login-page";
 
 test.beforeEach(async ({page}) => {
     await page.goto('https://practicetestautomation.com/practice-test-login/');
